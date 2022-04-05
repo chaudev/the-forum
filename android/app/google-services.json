@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1031846260004",
+    "project_id": "the-forum-center-158e0",
+    "storage_bucket": "the-forum-center-158e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031846260004:android:afae5256ec1220dfad57b1",
+        "android_client_info": {
+          "package_name": "com.theforumcenter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031846260004-dugjc3mgivjca4lhfuulpvkfc42lmq0d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.theforumcenter",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1031846260004-duju6kko1r71etcg32rv0r4uolonk9qd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM8JeqKkZnQcml-q3i5FrGbvlUZTjEdDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031846260004-duju6kko1r71etcg32rv0r4uolonk9qd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

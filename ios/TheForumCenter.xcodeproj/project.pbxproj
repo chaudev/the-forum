@@ -1,0 +1,999 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* TheForumCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TheForumCenterTests.m */; };
+		07CF94794DA14440897F292B /* GoogleSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E295D1F72407CB5B2C0AC /* GoogleSans-Bold.ttf */; };
+		0C3D6561BAF62040B9FAC483 /* libPods-TheForumCenter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2540B52BEB5B785A075D24F9 /* libPods-TheForumCenter.a */; };
+		122B6BC12771E5F700D2919C /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122B6BC02771E5F700D2919C /* NotificationService.swift */; };
+		122B6BC52771E5F700D2919C /* OneSignal.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 122B6BBE2771E5F700D2919C /* OneSignal.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1E7A14239A494C7896F34B64 /* GoogleSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 044EBF2885484A7AA67BF031 /* GoogleSans-Medium.ttf */; };
+		20B9D5145E844DE986FD2F54 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A27BFD728B5645FD907B6CB8 /* FontAwesome5_Brands.ttf */; };
+		2D6A60A8D4694FD9A11A14CF /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E259AAAD388D42FFA809FEA8 /* AntDesign.ttf */; };
+		2EC6DF100DDE4665B7C24806 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66AB8F0DB25C4F28B39E5C27 /* FontAwesome5_Solid.ttf */; };
+		3343275A4CD94B6CA12926FF /* GoogleSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 205DC06B5200406493B4D0B2 /* GoogleSans-BoldItalic.ttf */; };
+		36609B18EB3A4D2382FE900E /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEC39CDA3B9C48569E3334C3 /* Feather.ttf */; };
+		39759B00B3834BBF8CE1334C /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 605A149554B44C0B99C890B4 /* Zocial.ttf */; };
+		447478E12B3A40CCBAACF96C /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BB9C45DEA9440EA80204D64 /* Ionicons.ttf */; };
+		44A6981907494B8FBE45C893 /* GoogleSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 775CB1BFFBEC4B359C506199 /* GoogleSans-Italic.ttf */; };
+		69B729D5AE834E16A67BBBE3 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC376C1CC7964DC1BFE90616 /* MaterialCommunityIcons.ttf */; };
+		7C6EA3FA37644D55A7B0B84C /* GoogleSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0223DD7C7641432784A77960 /* GoogleSans-MediumItalic.ttf */; };
+		7C8E0E92BB894AA3AD1C8F8D /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB69EE4670AA435096AE3CCE /* Foundation.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8962D218EE8644A8AF0C1A7B /* GoogleSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABF75F628118473586E8B8EE /* GoogleSans-Regular.ttf */; };
+		A7C43639ADFDD27374E93481 /* libPods-TheForumCenter-TheForumCenterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B2C63A298DE6C95112E031 /* libPods-TheForumCenter-TheForumCenterTests.a */; };
+		A9AB1740176342D2B8ED4A88 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEEF5C6BB2EF496A8F5247A7 /* Entypo.ttf */; };
+		BBB7858BC1E0486B8217CE97 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4583687B858148CA8D8E00FB /* MaterialIcons.ttf */; };
+		D28B9320C9CB4858BBBE47F0 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAD1C5BBAF2F4833A99E7929 /* FontAwesome5_Regular.ttf */; };
+		D7AE292FE9024F2E8B52DB65 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6DF39E93AF04CFC89B99552 /* Fontisto.ttf */; };
+		E4C6B7117E9A47F2AA069783 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AA3A6B485A84E0CA5CEE589 /* EvilIcons.ttf */; };
+		E56F5E80C5794E7091924927 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDBC9ECB000744FD8D696827 /* FontAwesome.ttf */; };
+		EFA529BC924C4FD0B32E6E90 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07847B8697EE4055A462EF84 /* Octicons.ttf */; };
+		F8BA1DCFDAA94A77B2A5D9F3 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCD519CB42DE4CC88C2A6270 /* SimpleLineIcons.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = TheForumCenter;
+		};
+		122B6BC32771E5F700D2919C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 122B6BBD2771E5F700D2919C;
+			remoteInfo = OneSignal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		122B6BC92771E5F700D2919C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				122B6BC52771E5F700D2919C /* OneSignal.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* TheForumCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheForumCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* TheForumCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheForumCenterTests.m; sourceTree = "<group>"; };
+		0223DD7C7641432784A77960 /* GoogleSans-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-MediumItalic.ttf"; path = "../src/assets/fonts/GoogleSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		044EBF2885484A7AA67BF031 /* GoogleSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-Medium.ttf"; path = "../src/assets/fonts/GoogleSans-Medium.ttf"; sourceTree = "<group>"; };
+		074683BB40A54370B9BA81DD /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Italic.ttf"; path = "../src/assets/fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		07847B8697EE4055A462EF84 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		122B6BB92771E59600D2919C /* TheForumCenter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = TheForumCenter.entitlements; path = TheForumCenter/TheForumCenter.entitlements; sourceTree = "<group>"; };
+		122B6BBE2771E5F700D2919C /* OneSignal.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignal.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		122B6BC02771E5F700D2919C /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		122B6BC22771E5F700D2919C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* TheForumCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheForumCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TheForumCenter/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TheForumCenter/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TheForumCenter/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TheForumCenter/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TheForumCenter/main.m; sourceTree = "<group>"; };
+		1ED4425CD1BB4FDBAA0D69CF /* OpenSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Light.ttf"; path = "../src/assets/fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		205DC06B5200406493B4D0B2 /* GoogleSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-BoldItalic.ttf"; path = "../src/assets/fonts/GoogleSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		2540B52BEB5B785A075D24F9 /* libPods-TheForumCenter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TheForumCenter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB6019B5D334512A8EF2673 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../src/assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		2D1E295D1F72407CB5B2C0AC /* GoogleSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-Bold.ttf"; path = "../src/assets/fonts/GoogleSans-Bold.ttf"; sourceTree = "<group>"; };
+		34AC850C48614238B02BECEA /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		44B2C63A298DE6C95112E031 /* libPods-TheForumCenter-TheForumCenterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TheForumCenter-TheForumCenterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4583687B858148CA8D8E00FB /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		4857301523BD6B222C3E6068 /* Pods-TheForumCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheForumCenter.debug.xcconfig"; path = "Target Support Files/Pods-TheForumCenter/Pods-TheForumCenter.debug.xcconfig"; sourceTree = "<group>"; };
+		4AA3A6B485A84E0CA5CEE589 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		605A149554B44C0B99C890B4 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		66AB8F0DB25C4F28B39E5C27 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		6BAFC18C88AB43EA9D6065DF /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBold.ttf"; path = "../src/assets/fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		6BB9C45DEA9440EA80204D64 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		775CB1BFFBEC4B359C506199 /* GoogleSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-Italic.ttf"; path = "../src/assets/fonts/GoogleSans-Italic.ttf"; sourceTree = "<group>"; };
+		7CD8A18B2508429189A27AF5 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-BoldItalic.ttf"; path = "../src/assets/fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		80F47A8A1243375E81770522 /* Pods-TheForumCenter-TheForumCenterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheForumCenter-TheForumCenterTests.release.xcconfig"; path = "Target Support Files/Pods-TheForumCenter-TheForumCenterTests/Pods-TheForumCenter-TheForumCenterTests.release.xcconfig"; sourceTree = "<group>"; };
+		818D3D96035943419237913E /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../src/assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TheForumCenter/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83AC7004EEF14A7F8CFE94F5 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBoldItalic.ttf"; path = "../src/assets/fonts/OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		9FD4475E56BB409AB9AAD547 /* Pods-TheForumCenter-TheForumCenterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheForumCenter-TheForumCenterTests.debug.xcconfig"; path = "Target Support Files/Pods-TheForumCenter-TheForumCenterTests/Pods-TheForumCenter-TheForumCenterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A27BFD728B5645FD907B6CB8 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		ABF75F628118473586E8B8EE /* GoogleSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-Regular.ttf"; path = "../src/assets/fonts/GoogleSans-Regular.ttf"; sourceTree = "<group>"; };
+		B063BC3F76A84E159E3B2AB2 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBold.ttf"; path = "../src/assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		BCD519CB42DE4CC88C2A6270 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		C6DF39E93AF04CFC89B99552 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		CB69EE4670AA435096AE3CCE /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		CEC39CDA3B9C48569E3334C3 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		CEEF5C6BB2EF496A8F5247A7 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		D4F894C5D2534C82AAC67024 /* OpenSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Medium.ttf"; path = "../src/assets/fonts/OpenSans-Medium.ttf"; sourceTree = "<group>"; };
+		DDBC9ECB000744FD8D696827 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		E259AAAD388D42FFA809FEA8 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		E5A0D6D6C7CB9BC951482E51 /* Pods-TheForumCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheForumCenter.release.xcconfig"; path = "Target Support Files/Pods-TheForumCenter/Pods-TheForumCenter.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EE1C7858E3B6417BAC7C36F4 /* OpenSans-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-MediumItalic.ttf"; path = "../src/assets/fonts/OpenSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		F694478BAF50448ABEBC677B /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-LightItalic.ttf"; path = "../src/assets/fonts/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		FAD1C5BBAF2F4833A99E7929 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		FC376C1CC7964DC1BFE90616 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C43639ADFDD27374E93481 /* libPods-TheForumCenter-TheForumCenterTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		122B6BBB2771E5F700D2919C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3D6561BAF62040B9FAC483 /* libPods-TheForumCenter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* TheForumCenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* TheForumCenterTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = TheForumCenterTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		122B6BBF2771E5F700D2919C /* OneSignal */ = {
+			isa = PBXGroup;
+			children = (
+				122B6BC02771E5F700D2919C /* NotificationService.swift */,
+				122B6BC22771E5F700D2919C /* Info.plist */,
+			);
+			path = OneSignal;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* TheForumCenter */ = {
+			isa = PBXGroup;
+			children = (
+				122B6BB92771E59600D2919C /* TheForumCenter.entitlements */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = TheForumCenter;
+			sourceTree = "<group>";
+		};
+		18AF704378EA415EC1D6AE6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4857301523BD6B222C3E6068 /* Pods-TheForumCenter.debug.xcconfig */,
+				E5A0D6D6C7CB9BC951482E51 /* Pods-TheForumCenter.release.xcconfig */,
+				9FD4475E56BB409AB9AAD547 /* Pods-TheForumCenter-TheForumCenterTests.debug.xcconfig */,
+				80F47A8A1243375E81770522 /* Pods-TheForumCenter-TheForumCenterTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2ADC513CF7454BF1BECD272B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2BB6019B5D334512A8EF2673 /* OpenSans-Bold.ttf */,
+				7CD8A18B2508429189A27AF5 /* OpenSans-BoldItalic.ttf */,
+				6BAFC18C88AB43EA9D6065DF /* OpenSans-ExtraBold.ttf */,
+				34AC850C48614238B02BECEA /* OpenSans-ExtraBoldItalic.ttf */,
+				074683BB40A54370B9BA81DD /* OpenSans-Italic.ttf */,
+				1ED4425CD1BB4FDBAA0D69CF /* OpenSans-Light.ttf */,
+				F694478BAF50448ABEBC677B /* OpenSans-LightItalic.ttf */,
+				D4F894C5D2534C82AAC67024 /* OpenSans-Medium.ttf */,
+				EE1C7858E3B6417BAC7C36F4 /* OpenSans-MediumItalic.ttf */,
+				818D3D96035943419237913E /* OpenSans-Regular.ttf */,
+				B063BC3F76A84E159E3B2AB2 /* OpenSans-SemiBold.ttf */,
+				83AC7004EEF14A7F8CFE94F5 /* OpenSans-SemiBoldItalic.ttf */,
+				E259AAAD388D42FFA809FEA8 /* AntDesign.ttf */,
+				CEEF5C6BB2EF496A8F5247A7 /* Entypo.ttf */,
+				4AA3A6B485A84E0CA5CEE589 /* EvilIcons.ttf */,
+				CEC39CDA3B9C48569E3334C3 /* Feather.ttf */,
+				DDBC9ECB000744FD8D696827 /* FontAwesome.ttf */,
+				A27BFD728B5645FD907B6CB8 /* FontAwesome5_Brands.ttf */,
+				FAD1C5BBAF2F4833A99E7929 /* FontAwesome5_Regular.ttf */,
+				66AB8F0DB25C4F28B39E5C27 /* FontAwesome5_Solid.ttf */,
+				C6DF39E93AF04CFC89B99552 /* Fontisto.ttf */,
+				CB69EE4670AA435096AE3CCE /* Foundation.ttf */,
+				6BB9C45DEA9440EA80204D64 /* Ionicons.ttf */,
+				FC376C1CC7964DC1BFE90616 /* MaterialCommunityIcons.ttf */,
+				4583687B858148CA8D8E00FB /* MaterialIcons.ttf */,
+				07847B8697EE4055A462EF84 /* Octicons.ttf */,
+				BCD519CB42DE4CC88C2A6270 /* SimpleLineIcons.ttf */,
+				605A149554B44C0B99C890B4 /* Zocial.ttf */,
+				2D1E295D1F72407CB5B2C0AC /* GoogleSans-Bold.ttf */,
+				205DC06B5200406493B4D0B2 /* GoogleSans-BoldItalic.ttf */,
+				775CB1BFFBEC4B359C506199 /* GoogleSans-Italic.ttf */,
+				044EBF2885484A7AA67BF031 /* GoogleSans-Medium.ttf */,
+				0223DD7C7641432784A77960 /* GoogleSans-MediumItalic.ttf */,
+				ABF75F628118473586E8B8EE /* GoogleSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				2540B52BEB5B785A075D24F9 /* libPods-TheForumCenter.a */,
+				44B2C63A298DE6C95112E031 /* libPods-TheForumCenter-TheForumCenterTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* TheForumCenter */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* TheForumCenterTests */,
+				122B6BBF2771E5F700D2919C /* OneSignal */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				2ADC513CF7454BF1BECD272B /* Resources */,
+				18AF704378EA415EC1D6AE6B /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* TheForumCenter.app */,
+				00E356EE1AD99517003FC87E /* TheForumCenterTests.xctest */,
+				122B6BBE2771E5F700D2919C /* OneSignal.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* TheForumCenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TheForumCenterTests" */;
+			buildPhases = (
+				C6E698F16AADFB9AB8834D68 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				3A99B08451B8757875DE36D4 /* [CP] Embed Pods Frameworks */,
+				B85469B78A4A60F30E9EA67A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = TheForumCenterTests;
+			productName = TheForumCenterTests;
+			productReference = 00E356EE1AD99517003FC87E /* TheForumCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		122B6BBD2771E5F700D2919C /* OneSignal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 122B6BC62771E5F700D2919C /* Build configuration list for PBXNativeTarget "OneSignal" */;
+			buildPhases = (
+				122B6BBA2771E5F700D2919C /* Sources */,
+				122B6BBB2771E5F700D2919C /* Frameworks */,
+				122B6BBC2771E5F700D2919C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignal;
+			productName = OneSignal;
+			productReference = 122B6BBE2771E5F700D2919C /* OneSignal.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		13B07F861A680F5B00A75B9A /* TheForumCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TheForumCenter" */;
+			buildPhases = (
+				29AA24F0C0D56822D9145536 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				D613BFD071AAAD3A4BA9CC07 /* [CP] Embed Pods Frameworks */,
+				D1BD49A780DB0112D264369D /* [CP] Copy Pods Resources */,
+				122B6BC92771E5F700D2919C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				122B6BC42771E5F700D2919C /* PBXTargetDependency */,
+			);
+			name = TheForumCenter;
+			productName = TheForumCenter;
+			productReference = 13B07F961A680F5B00A75B9A /* TheForumCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					122B6BBD2771E5F700D2919C = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TheForumCenter" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* TheForumCenter */,
+				00E356ED1AD99517003FC87E /* TheForumCenterTests */,
+				122B6BBD2771E5F700D2919C /* OneSignal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		122B6BBC2771E5F700D2919C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				2D6A60A8D4694FD9A11A14CF /* AntDesign.ttf in Resources */,
+				A9AB1740176342D2B8ED4A88 /* Entypo.ttf in Resources */,
+				E4C6B7117E9A47F2AA069783 /* EvilIcons.ttf in Resources */,
+				36609B18EB3A4D2382FE900E /* Feather.ttf in Resources */,
+				E56F5E80C5794E7091924927 /* FontAwesome.ttf in Resources */,
+				20B9D5145E844DE986FD2F54 /* FontAwesome5_Brands.ttf in Resources */,
+				D28B9320C9CB4858BBBE47F0 /* FontAwesome5_Regular.ttf in Resources */,
+				2EC6DF100DDE4665B7C24806 /* FontAwesome5_Solid.ttf in Resources */,
+				D7AE292FE9024F2E8B52DB65 /* Fontisto.ttf in Resources */,
+				7C8E0E92BB894AA3AD1C8F8D /* Foundation.ttf in Resources */,
+				447478E12B3A40CCBAACF96C /* Ionicons.ttf in Resources */,
+				69B729D5AE834E16A67BBBE3 /* MaterialCommunityIcons.ttf in Resources */,
+				BBB7858BC1E0486B8217CE97 /* MaterialIcons.ttf in Resources */,
+				EFA529BC924C4FD0B32E6E90 /* Octicons.ttf in Resources */,
+				F8BA1DCFDAA94A77B2A5D9F3 /* SimpleLineIcons.ttf in Resources */,
+				39759B00B3834BBF8CE1334C /* Zocial.ttf in Resources */,
+				07CF94794DA14440897F292B /* GoogleSans-Bold.ttf in Resources */,
+				3343275A4CD94B6CA12926FF /* GoogleSans-BoldItalic.ttf in Resources */,
+				44A6981907494B8FBE45C893 /* GoogleSans-Italic.ttf in Resources */,
+				1E7A14239A494C7896F34B64 /* GoogleSans-Medium.ttf in Resources */,
+				7C6EA3FA37644D55A7B0B84C /* GoogleSans-MediumItalic.ttf in Resources */,
+				8962D218EE8644A8AF0C1A7B /* GoogleSans-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		29AA24F0C0D56822D9145536 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheForumCenter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A99B08451B8757875DE36D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheForumCenter-TheForumCenterTests/Pods-TheForumCenter-TheForumCenterTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheForumCenter-TheForumCenterTests/Pods-TheForumCenter-TheForumCenterTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheForumCenter-TheForumCenterTests/Pods-TheForumCenter-TheForumCenterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B85469B78A4A60F30E9EA67A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheForumCenter-TheForumCenterTests/Pods-TheForumCenter-TheForumCenterTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheForumCenter-TheForumCenterTests/Pods-TheForumCenter-TheForumCenterTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheForumCenter-TheForumCenterTests/Pods-TheForumCenter-TheForumCenterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6E698F16AADFB9AB8834D68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheForumCenter-TheForumCenterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1BD49A780DB0112D264369D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheForumCenter/Pods-TheForumCenter-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheForumCenter/Pods-TheForumCenter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D613BFD071AAAD3A4BA9CC07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheForumCenter/Pods-TheForumCenter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheForumCenter/Pods-TheForumCenter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* TheForumCenterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		122B6BBA2771E5F700D2919C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122B6BC12771E5F700D2919C /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* TheForumCenter */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		122B6BC42771E5F700D2919C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 122B6BBD2771E5F700D2919C /* OneSignal */;
+			targetProxy = 122B6BC32771E5F700D2919C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FD4475E56BB409AB9AAD547 /* Pods-TheForumCenter-TheForumCenterTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TheForumCenterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheForumCenter.app/TheForumCenter";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F47A8A1243375E81770522 /* Pods-TheForumCenter-TheForumCenterTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = TheForumCenterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheForumCenter.app/TheForumCenter";
+			};
+			name = Release;
+		};
+		122B6BC72771E5F700D2919C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = HFU98J6XAM;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignal;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theforumeducation.OneSignal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "TFC Wic (store)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		122B6BC82771E5F700D2919C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HFU98J6XAM;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignal;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theforumeducation.OneSignal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "TFC Wic (store)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4857301523BD6B222C3E6068 /* Pods-TheForumCenter.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TheForumCenter/TheForumCenter.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = HFU98J6XAM;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = TheForumCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.theforumeducation;
+				PRODUCT_NAME = TheForumCenter;
+				PROVISIONING_PROFILE_SPECIFIER = "TFC Dis (store)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5A0D6D6C7CB9BC951482E51 /* Pods-TheForumCenter.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TheForumCenter/TheForumCenter.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = HFU98J6XAM;
+				INFOPLIST_FILE = TheForumCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.theforumeducation;
+				PRODUCT_NAME = TheForumCenter;
+				PROVISIONING_PROFILE_SPECIFIER = "TFC Dis (store)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TheForumCenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		122B6BC62771E5F700D2919C /* Build configuration list for PBXNativeTarget "OneSignal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				122B6BC72771E5F700D2919C /* Debug */,
+				122B6BC82771E5F700D2919C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TheForumCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TheForumCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
